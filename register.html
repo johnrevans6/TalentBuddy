@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Register</title>
+
+	<script src="https://rawgit.com/flatiron/director/master/build/director.min.js"></script>
+	
+	
+	<script>  
+      var routes = {
+        '/login': login,
+        '/register': register               
+      };
+
+      var router = Router(routes);
+
+      router.init();
+    </script>
+
+</head>
+
+<body>
+	<nav class="navbar">		
+		<a href="/login">Login</a>	
+		<a href="/register">Signup</a>
+	</nav>
+</body>
+
+</html>

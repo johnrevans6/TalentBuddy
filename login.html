@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<title>Login</title>
+	<script src="https://rawgit.com/flatiron/director/master/build/director.min.js"></script>    	
+	
+	<script>
+	  var login;
+	  var register;  
+      var routes = {
+        '/login': login,
+        '/register': register               
+      };
+
+      var router = Router(routes);
+
+      router.init();
+    </script>
+	
+	
+	
+</head>
+
+<body>
+	<nav class="navbar">		
+		<img src="Guesthouse-logo.png" alt="Guesthouse-logo.png"/>
+		<a href="" class="fancyblock" style="text-transform:none;">List your space</a>
+		<a href="/login">Login</a>	
+		<a href="/register">Signup</a>		
+	</nav>
+	<div class="form">
+		<div class="heading">
+			<h1>Find a place to stay</h1>
+			<h5 style="font-size:medium; font-weight:200;">Rent from people in over 34,000 cities and 190 countries</h5>
+		</div>
+		<form>
+			<div>
+				<input type="text" value="  Where do you want to go?"/>				
+			
+				<input type="text" value="  How many guests?"/>
+				
+				<a href="">Search</a>	
+				
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
